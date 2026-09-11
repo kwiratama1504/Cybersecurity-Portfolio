@@ -25,7 +25,7 @@ I created a high-level technology stack diagram based on the WhatWeb results.
 
 The architecture was represented as:
 
-<img width="327" height="588" alt="image" src="https://github.com/user-attachments/assets/bb6a6cca-daab-45be-9746-4df0ad14debf" />
+<img width="336" height="598" alt="image" src="https://github.com/user-attachments/assets/d4c89e8e-0339-4a65-8b7c-9aa2775c12b0" />
 
 The diagram helped visualise the communication between the frontend, web infrastructure and backend services.
 
