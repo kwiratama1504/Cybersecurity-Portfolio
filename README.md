@@ -29,7 +29,7 @@ A university security assessment based on the Unity Bugcrowd program. The projec
 4. Manual Testing - Analysed HTTP requests, responses and HTTPS behaviour.
 
 ## What I learned 
-This project gave me more experience with the way penetration testing is actually carried out, especially the process of going from reconnaissance to finding and testing potential vulnerabilities. It also helped me get more comfortable with Burp Suite, FFUF and other tools, as well as documenting findings and thinking about how they could be fixed.
+This project gave me more experience with the way penetration testing is actually carried out, especially the process of going from reconnaissance to finding and testing potential vulnerabilities. It also helped me get more comfortable with Burp Suite, FFUF and other tools, as well as documenting findings and thinking about how they could be fixed. 
 
 
 
