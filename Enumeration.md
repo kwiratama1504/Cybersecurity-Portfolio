@@ -1,23 +1,30 @@
-# Enumeration
+# Enumeration & Crawling
 
-After collecting the subdomains, I moved on to finding accessible endpoints and directories.
+The next stage focused on discovering accessible directories and endpoints across the filtered subdomains.
 
-# FFUF
+## Endpoint Discovery
 
-I used FFUF to fuzz the discovered subdomains and look for accessible paths and endpoints.
+I used **FFUF (Fuzz Faster U Fool)** to perform endpoint discovery.
 
-- Tested the discovered subdomains for available endpoints.
-- Filtered the results to remove irrelevant responses.
-- Prioritised interesting endpoints for further testing.
+Since there were **371 filtered subdomains**, I created a **Bash loop** to automate the process across the targets instead of running each scan manually.
 
-# What I Found
+The results were saved and reviewed to identify potentially interesting endpoints and application functionality.
 
-The enumeration stage helped identify potential areas such as:
+The identified areas included:
 
-- API endpoints
-- Authentication pages
-- Admin-related paths
-- Staging environments
-- Other interesting web directories
+* Administrative pages
+* Internal tools
+* API endpoints
+* Login pages
+* Application functionality
 
-The results were then used for the manual web testing stage.
+The interesting results were then manually reviewed and passed to the relevant team members for further security testing.
+
+## Automation
+
+Using Bash automation made it possible to apply the same endpoint discovery process across multiple subdomains and organise the results for later analysis.
+
+## Tools Used
+
+* **FFUF** — Endpoint and directory discovery
+* **Bash** — Scan automation
