@@ -2,7 +2,7 @@
 
 The first step was to gather information about Unity's public-facing assets.
 
-# Subdomain Enumeration
+## Subdomain Enumeration
 
 I used **Subfinder** to find subdomains associated with **unity.com**.
 
@@ -11,11 +11,11 @@ I used **Subfinder** to find subdomains associated with **unity.com**.
 - 371 subdomains were selected for further testing.
 - The main areas of interest were APIs, admin panels, staging environments, and authentication endpoints.
 
-# Tool Used 
+## Tool Used 
 
 **Subfinder** - Used to discover subdomains associated with the target domain.
 
-# Command
+## Command
 
 subfinder -d unity.com -o unity_subs.txt
 
