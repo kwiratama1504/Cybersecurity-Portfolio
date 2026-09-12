@@ -5,7 +5,7 @@ A university Android application developed for **CP3407 Advanced Software Engine
 **My Role:** Project Manager & UI Designer
 
 ## Preview
-<img width="444" height="2092" alt="image" src="https://github.com/user-attachments/assets/c68affe1-a065-4088-9973-9579fe4167f0" />
+<img width="400" height="700" alt="image" src="https://github.com/user-attachments/assets/c68affe1-a065-4088-9973-9579fe4167f0" />
 
 <!-- Add your app screenshots here -->
 
