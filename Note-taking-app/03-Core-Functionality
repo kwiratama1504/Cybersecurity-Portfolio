@@ -1,0 +1,32 @@
+# Core Functionality
+
+The main application logic is handled by `MainActivity.kt`.
+
+## MainActivity
+
+`MainActivity.kt` connects the user interface with the Room Database and manages the main note list.
+
+It handles:
+
+- Loading notes from the database
+- Displaying notes in a `RecyclerView`
+- Opening the note screen
+- Adding new notes
+- Updating existing notes
+- Searching notes
+- Pinning and unpinning notes
+- Deleting notes
+
+## NotesTakeActivity
+
+`NotesTakeActivity.kt` is used for creating and editing notes.
+
+The activity receives an existing note when editing and returns the updated note to the main activity.
+
+## Search
+
+The search function filters notes based on the note title or content.
+
+## Note Actions
+
+The application also provides actions for pinning and deleting notes through the note interaction menu.
